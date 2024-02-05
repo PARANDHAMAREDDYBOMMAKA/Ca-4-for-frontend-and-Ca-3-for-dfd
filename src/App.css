@@ -1,0 +1,17 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+.toggleButton {
+    position: absolute;
+    right: 0%;
+    margin: 5px 10px;
+    position: absolute;
+    top: 5%;
+}
+
+.mainContainer1{
+    height: 100%;
+    padding: 24.5px 0px;
+}

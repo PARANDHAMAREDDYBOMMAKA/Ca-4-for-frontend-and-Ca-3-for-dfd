@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+.mainContainer{
+    height: 94vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Jua", sans-serif;
+    margin: 0px;
+}
+.resultContainer{
+    background-color: #958472;
+    color: #FFFFFF;
+    padding: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 25%;
+    height: 35%;
+    width: 40%;
+    text-align: center;
+}
+.resultContainer > button{
+    height: 60px;
+    width: 50%;
+    border-radius: 30px;
+    border: 0px;
+    margin: 40px;
+    font-family: "Jua", sans-serif;
+    font-size: 40px;
+    color: #FFFFFF;
+    background-color: #FB6107;
+    position: relative;
+    left: 20%;
+}
